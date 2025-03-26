@@ -1,0 +1,32 @@
+﻿<Window x:Class="brännbollapp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:brännbollapp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" SizeToContent="WidthAndHeight">
+    <StackPanel Margin="10">
+    
+        <Label FontSize="30">Brännbollsräknaren</Label>
+        <StackPanel Orientation="Horizontal">
+        
+            <Label>Lag inne:</Label>
+            <TextBox Name="txbInne" Width="100"></TextBox>
+
+            <Label>Lag ute:</Label>
+            <TextBox Name="txtUte" Width="100"></TextBox>
+        
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+        
+            <Button Click="klickFrivarv" Padding="5" Margin="10" Width="100">Frivarv</Button>
+            <Button Padding="5" Margin="10" Width="100">Bränning</Button>
+            <Button Padding="5" Margin="10" Width="100">Lyra</Button>
+            <Button Padding="5" Margin="10" Width="100">Varv</Button>
+        
+        </StackPanel>
+    
+    </StackPanel>
+
+</Window>

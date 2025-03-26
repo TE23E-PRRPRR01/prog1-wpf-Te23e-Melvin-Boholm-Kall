@@ -1,0 +1,4 @@
+25-03-10 13:46 Session started
+----------------------------------------
+13:46:19 Document switched to: c:\Users\melvin.boholmkall\github-classroom\prog1-wpf-Te23e-Melvin-Boholm-Kall\.gitignore
+----------------------------------------
